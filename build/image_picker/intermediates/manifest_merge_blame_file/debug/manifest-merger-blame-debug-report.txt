@@ -1,0 +1,39 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="io.flutter.plugins.imagepicker" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="16"
+6-->C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\image_picker-0.6.7+22\android\src\main\AndroidManifest.xml
+7        android:targetSdkVersion="16" />
+7-->C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\image_picker-0.6.7+22\android\src\main\AndroidManifest.xml
+8
+9    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+9-->C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\image_picker-0.6.7+22\android\src\main\AndroidManifest.xml:3:4-78
+9-->C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\image_picker-0.6.7+22\android\src\main\AndroidManifest.xml:3:21-76
+10    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+10-->C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\image_picker-0.6.7+22\android\src\main\AndroidManifest.xml:4:4-79
+10-->C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\image_picker-0.6.7+22\android\src\main\AndroidManifest.xml:4:21-77
+11
+12    <application>
+12-->C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\image_picker-0.6.7+22\android\src\main\AndroidManifest.xml:6:5-16:19
+13        <provider
+13-->C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\image_picker-0.6.7+22\android\src\main\AndroidManifest.xml:7:9-15:20
+14            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+14-->C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\image_picker-0.6.7+22\android\src\main\AndroidManifest.xml:8:13-82
+15            android:authorities="${applicationId}.flutter.image_provider"
+15-->C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\image_picker-0.6.7+22\android\src\main\AndroidManifest.xml:9:13-74
+16            android:exported="false"
+16-->C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\image_picker-0.6.7+22\android\src\main\AndroidManifest.xml:10:13-37
+17            android:grantUriPermissions="true" >
+17-->C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\image_picker-0.6.7+22\android\src\main\AndroidManifest.xml:11:13-47
+18            <meta-data
+18-->C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\image_picker-0.6.7+22\android\src\main\AndroidManifest.xml:12:13-14:74
+19                android:name="android.support.FILE_PROVIDER_PATHS"
+19-->C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\image_picker-0.6.7+22\android\src\main\AndroidManifest.xml:13:17-67
+20                android:resource="@xml/flutter_image_picker_file_paths" />
+20-->C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\image_picker-0.6.7+22\android\src\main\AndroidManifest.xml:14:17-72
+21        </provider>
+22    </application>
+23
+24</manifest>
