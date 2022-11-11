@@ -4,6 +4,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 
 import './screens/chat_screen.dart';
 import './screens/auth_screen.dart';
+import './screens/splash_screen.dart';
 
 void main() {
   runApp(MyApp());
@@ -33,16 +34,18 @@ class MyApp extends StatelessWidget {
                 ),
               ),
             ),
-            home: StreamBuilder(
-              stream: FirebaseAuth.instance.authStateChanges(),
-              builder: (ctx, userSnapshot) {
-                // checks if we are logged in, then show the Chat Screen
-                if (userSnapshot.hasData) {
-                  return ChatScreen();
-                }
-                return const AuthScreen();
-              },
-            ),
+            home: appSnapshot.connectionState != ConnectionState.done
+                ? SplashScreen()
+                : StreamBuilder(
+                    stream: FirebaseAuth.instance.authStateChanges(),
+                    builder: (ctx, userSnapshot) {
+                      // checks if we are logged in, then show the Chat Screen
+                      if (userSnapshot.hasData) {
+                        return ChatScreen();
+                      }
+                      return const AuthScreen();
+                    },
+                  ),
           );
         });
   }

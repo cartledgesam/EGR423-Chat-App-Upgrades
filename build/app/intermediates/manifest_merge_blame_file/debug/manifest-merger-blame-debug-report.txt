@@ -13,14 +13,14 @@
 13         to allow setting breakpoints, to provide hot reload, etc.
 14    -->
 15    <uses-permission android:name="android.permission.INTERNET" />
-15-->C:\Users\jaden\development\projects\chat_app_2\android\app\src\debug\AndroidManifest.xml:7:5-66
-15-->C:\Users\jaden\development\projects\chat_app_2\android\app\src\debug\AndroidManifest.xml:7:22-64
+15-->C:\Users\jaden\development\projects\EGR423-Chat-App-Upgrades\android\app\src\debug\AndroidManifest.xml:7:5-66
+15-->C:\Users\jaden\development\projects\EGR423-Chat-App-Upgrades\android\app\src\debug\AndroidManifest.xml:7:22-64
 16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-16-->[:image_picker] C:\Users\jaden\development\projects\chat_app_2\build\image_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-80
-16-->[:image_picker] C:\Users\jaden\development\projects\chat_app_2\build\image_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-77
+16-->[:image_picker] C:\Users\jaden\development\projects\EGR423-Chat-App-Upgrades\build\image_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-80
+16-->[:image_picker] C:\Users\jaden\development\projects\EGR423-Chat-App-Upgrades\build\image_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-77
 17    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-17-->[:image_picker] C:\Users\jaden\development\projects\chat_app_2\build\image_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-81
-17-->[:image_picker] C:\Users\jaden\development\projects\chat_app_2\build\image_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:10:22-78
+17-->[:image_picker] C:\Users\jaden\development\projects\EGR423-Chat-App-Upgrades\build\image_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-81
+17-->[:image_picker] C:\Users\jaden\development\projects\EGR423-Chat-App-Upgrades\build\image_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:10:22-78
 18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 18-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\jaden\.gradle\caches\transforms-3\0548e507d3019ac84ce4969b57803f45\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:24:5-79
 18-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\jaden\.gradle\caches\transforms-3\0548e507d3019ac84ce4969b57803f45\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:24:22-76
@@ -66,31 +66,31 @@
 57            android:value="2" />
 58
 59        <service
-59-->[:firebase_auth] C:\Users\jaden\development\projects\chat_app_2\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-14:19
+59-->[:firebase_auth] C:\Users\jaden\development\projects\EGR423-Chat-App-Upgrades\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-14:19
 60            android:name="com.google.firebase.components.ComponentDiscoveryService"
-60-->[:firebase_auth] C:\Users\jaden\development\projects\chat_app_2\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:10:18-89
+60-->[:firebase_auth] C:\Users\jaden\development\projects\EGR423-Chat-App-Upgrades\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:10:18-89
 61            android:directBootAware="true"
 61-->[com.google.firebase:firebase-common:20.2.0] C:\Users\jaden\.gradle\caches\transforms-3\c1f7cd0e68ddf89c76a753ac7fd1a66c\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:34:13-43
 62            android:exported="false" >
 62-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\jaden\.gradle\caches\transforms-3\0548e507d3019ac84ce4969b57803f45\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:66:13-37
 63            <meta-data
-63-->[:firebase_auth] C:\Users\jaden\development\projects\chat_app_2\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
+63-->[:firebase_auth] C:\Users\jaden\development\projects\EGR423-Chat-App-Upgrades\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
 64                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
-64-->[:firebase_auth] C:\Users\jaden\development\projects\chat_app_2\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-124
+64-->[:firebase_auth] C:\Users\jaden\development\projects\EGR423-Chat-App-Upgrades\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-124
 65                android:value="com.google.firebase.components.ComponentRegistrar" />
-65-->[:firebase_auth] C:\Users\jaden\development\projects\chat_app_2\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
+65-->[:firebase_auth] C:\Users\jaden\development\projects\EGR423-Chat-App-Upgrades\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
 66            <meta-data
-66-->[:cloud_firestore] C:\Users\jaden\development\projects\chat_app_2\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
+66-->[:cloud_firestore] C:\Users\jaden\development\projects\EGR423-Chat-App-Upgrades\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
 67                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
-67-->[:cloud_firestore] C:\Users\jaden\development\projects\chat_app_2\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-134
+67-->[:cloud_firestore] C:\Users\jaden\development\projects\EGR423-Chat-App-Upgrades\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-134
 68                android:value="com.google.firebase.components.ComponentRegistrar" />
-68-->[:cloud_firestore] C:\Users\jaden\development\projects\chat_app_2\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
+68-->[:cloud_firestore] C:\Users\jaden\development\projects\EGR423-Chat-App-Upgrades\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
 69            <meta-data
-69-->[:firebase_core] C:\Users\jaden\development\projects\chat_app_2\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
+69-->[:firebase_core] C:\Users\jaden\development\projects\EGR423-Chat-App-Upgrades\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
 70                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
-70-->[:firebase_core] C:\Users\jaden\development\projects\chat_app_2\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-124
+70-->[:firebase_core] C:\Users\jaden\development\projects\EGR423-Chat-App-Upgrades\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-124
 71                android:value="com.google.firebase.components.ComponentRegistrar" />
-71-->[:firebase_core] C:\Users\jaden\development\projects\chat_app_2\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
+71-->[:firebase_core] C:\Users\jaden\development\projects\EGR423-Chat-App-Upgrades\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
 72            <meta-data
 72-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\jaden\.gradle\caches\transforms-3\0548e507d3019ac84ce4969b57803f45\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:67:13-69:85
 73                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
@@ -106,21 +106,21 @@
 78        </service>
 79
 80        <provider
-80-->[:image_picker] C:\Users\jaden\development\projects\chat_app_2\build\image_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:13:9-21:20
+80-->[:image_picker] C:\Users\jaden\development\projects\EGR423-Chat-App-Upgrades\build\image_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:13:9-21:20
 81            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
-81-->[:image_picker] C:\Users\jaden\development\projects\chat_app_2\build\image_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-82
+81-->[:image_picker] C:\Users\jaden\development\projects\EGR423-Chat-App-Upgrades\build\image_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-82
 82            android:authorities="com.example.chat_app_2.flutter.image_provider"
-82-->[:image_picker] C:\Users\jaden\development\projects\chat_app_2\build\image_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-74
+82-->[:image_picker] C:\Users\jaden\development\projects\EGR423-Chat-App-Upgrades\build\image_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-74
 83            android:exported="false"
-83-->[:image_picker] C:\Users\jaden\development\projects\chat_app_2\build\image_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-37
+83-->[:image_picker] C:\Users\jaden\development\projects\EGR423-Chat-App-Upgrades\build\image_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-37
 84            android:grantUriPermissions="true" >
-84-->[:image_picker] C:\Users\jaden\development\projects\chat_app_2\build\image_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-47
+84-->[:image_picker] C:\Users\jaden\development\projects\EGR423-Chat-App-Upgrades\build\image_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-47
 85            <meta-data
-85-->[:image_picker] C:\Users\jaden\development\projects\chat_app_2\build\image_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-20:75
+85-->[:image_picker] C:\Users\jaden\development\projects\EGR423-Chat-App-Upgrades\build\image_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-20:75
 86                android:name="android.support.FILE_PROVIDER_PATHS"
-86-->[:image_picker] C:\Users\jaden\development\projects\chat_app_2\build\image_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:19:17-67
+86-->[:image_picker] C:\Users\jaden\development\projects\EGR423-Chat-App-Upgrades\build\image_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:19:17-67
 87                android:resource="@xml/flutter_image_picker_file_paths" />
-87-->[:image_picker] C:\Users\jaden\development\projects\chat_app_2\build\image_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:20:17-72
+87-->[:image_picker] C:\Users\jaden\development\projects\EGR423-Chat-App-Upgrades\build\image_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:20:17-72
 88        </provider>
 89
 90        <uses-library
