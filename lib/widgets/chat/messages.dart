@@ -35,32 +35,20 @@ class Messages extends StatelessWidget {
         }
         final chatDocs = chatSnapshot.data.docs;
         return ListView.builder(
-            reverse: true,
-            itemCount: chatDocs.length,
-            itemBuilder: (ctx, index) =>
-                //IconButton(icon: const Icon(Icons.delete))
-                //onTap: () => _tapped(chatDocs[index].id),
+          reverse: true,
+          itemCount: chatDocs.length,
+          itemBuilder: (ctx, index) =>
+              //IconButton(icon: const Icon(Icons.delete))
+              //onTap: () => _tapped(chatDocs[index].id),
 
-                Column(
-                    crossAxisAlignment: chatDocs[index]['userId'] == user.uid
-                        ? CrossAxisAlignment.end
-                        : CrossAxisAlignment.start,
-                    children: <Widget>[
-                      MessageBubble(
-                        chatDocs[index]['text'],
-                        chatDocs[index]['userId'],
-                        chatDocs[index]['userId'] == user.uid,
-                        key: ValueKey(chatDocs[index].id),
-                      ),
-                      if (chatDocs[index]['userId'] == user.uid)
-                        IconButton(
-                          iconSize: 20,
-                          icon: new Icon(Icons.delete),
-                          onPressed: () {
-                            _tapped(chatDocs[index].id);
-                          },
-                        ),
-                    ]));
+              MessageBubble(
+            chatDocs[index]['text'],
+            chatDocs[index]['userId'],
+            chatDocs[index]['userId'] == user.uid,
+            chatDocs[index].id,
+            key: ValueKey(chatDocs[index].id),
+          ),
+        );
       },
     );
   }
