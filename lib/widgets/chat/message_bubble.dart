@@ -10,6 +10,10 @@ class MessageBubble extends StatelessWidget {
   final String userId;
   final bool isMe;
 
+  void _delete(dynamic output) async {
+    FirebaseFirestore.instance.collection('chat').doc(output).delete();
+  }
+
   @override
   Widget build(BuildContext context) {
     return Row(
